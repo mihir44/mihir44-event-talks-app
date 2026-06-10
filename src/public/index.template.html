@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechTalks 2026 - Event Schedule</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        {{CSS}}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>TechTalks 2026</h1>
+            <p class="event-meta">Wednesday, June 10 • 10:00 AM - 05:40 PM • Single Track</p>
+        </header>
+
+        <div class="search-container">
+            <div class="search-wrapper">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="category-search" placeholder="Search by category, title, or speaker...">
+            </div>
+        </div>
+
+        <div id="schedule" class="timeline">
+            <!-- Schedule items will be injected here -->
+        </div>
+    </div>
+
+    <script>
+        window.talksData = {{DATA}};
+        {{JS}}
+    </script>
+</body>
+</html>

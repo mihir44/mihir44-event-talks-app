@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "startTime": "10:00 AM",
+    "endTime": "11:00 AM",
+    "title": "Scaling Distributed Systems with Go",
+    "speakers": ["Alex Chen", "Sarah Miller"],
+    "categories": ["Backend", "Go", "Cloud"],
+    "description": "Explore patterns and practices for building resilient, high-throughput distributed systems using the Go programming language. This talk covers concurrency primitives, service discovery, and fault tolerance."
+  },
+  {
+    "id": 2,
+    "startTime": "11:10 AM",
+    "endTime": "12:10 PM",
+    "title": "Modern Frontend: Beyond Frameworks",
+    "speakers": ["Jordan Smith"],
+    "categories": ["Frontend", "Performance", "Web"],
+    "description": "Deep dive into web standards, browser APIs, and performance optimization techniques that help you build faster websites regardless of the framework you use."
+  },
+  {
+    "id": 3,
+    "startTime": "12:20 PM",
+    "endTime": "01:20 PM",
+    "title": "Architecting for Security in the Modern Era",
+    "speakers": ["Maria Rodriguez"],
+    "categories": ["Security", "DevOps"],
+    "description": "Learn how to integrate security into every stage of your development lifecycle. We'll discuss Zero Trust architecture, secret management, and automated security scanning."
+  },
+  {
+    "id": 4,
+    "startTime": "02:20 PM",
+    "endTime": "03:20 PM",
+    "title": "Pragmatic Machine Learning for Software Engineers",
+    "speakers": ["David Kim"],
+    "categories": ["AI", "Data", "Python"],
+    "description": "You don't need a PhD to leverage AI. This talk shows how to integrate pre-trained models and building simple classification systems into your existing applications."
+  },
+  {
+    "id": 5,
+    "startTime": "03:30 PM",
+    "endTime": "04:30 PM",
+    "title": "The Future of Serverless Computing",
+    "speakers": ["Emily Watson", "Chris Lee"],
+    "categories": ["Cloud", "Serverless", "Infrastructure"],
+    "description": "An overview of the evolving serverless landscape, focusing on Edge computing, cold-start optimizations, and the move towards stateful serverless functions."
+  },
+  {
+    "id": 6,
+    "startTime": "04:40 PM",
+    "endTime": "05:40 PM",
+    "title": "Building Accessible and Inclusive Interfaces",
+    "speakers": ["Sam Taylor"],
+    "categories": ["Accessibility", "UI", "UX"],
+    "description": "Accessibility is not a feature; it's a fundamental requirement. Discover how to create digital experiences that work for everyone using ARIA roles, semantic HTML, and thoughtful design."
+  }
+]
